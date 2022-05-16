@@ -7,4 +7,4 @@ else
   aws s3 cp s3://${S3_BKT}/${COMP_S3_PROBLEM_PATH} supervised-scripts/test.cnf
 fi
 
-time /painless/painless-mcomsps -c=29 -shr-sleep=750000 -shr-strat=3 supervised-scripts/test.cnf
+time /painless/painless-mcomsps -c=31 -solver=k -shr-sleep=750000 -shr-strat=1 supervised-scripts/test.cnf
