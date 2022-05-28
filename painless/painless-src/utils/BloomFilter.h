@@ -11,7 +11,7 @@
 // #include <spot/misc/clz.hh>
 
 using namespace std;
-#define NUM_BITS 26843543 // 3,2MB
+#define NUM_BITS 67108864 // 8MB
 
 typedef size_t hash_t;
 typedef hash_t (*hash_function_t)(vector<int>&);
